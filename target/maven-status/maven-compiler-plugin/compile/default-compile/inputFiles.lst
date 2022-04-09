@@ -1,6 +1,7 @@
 H:\程序\大三下期\Mybatis_Plus整合ssm\src\main\java\mao\mybatis_plus_integration_ssm\controller\StudentController.java
 H:\程序\大三下期\Mybatis_Plus整合ssm\src\main\java\mao\mybatis_plus_integration_ssm\service\IStudentService.java
 H:\程序\大三下期\Mybatis_Plus整合ssm\src\main\java\mao\mybatis_plus_integration_ssm\mapper\StudentMapper.java
+H:\程序\大三下期\Mybatis_Plus整合ssm\src\main\java\mao\mybatis_plus_integration_ssm\exception\ExceptionResolver.java
 H:\程序\大三下期\Mybatis_Plus整合ssm\src\main\java\mao\mybatis_plus_integration_ssm\service\impl\StudentServiceImpl.java
 H:\程序\大三下期\Mybatis_Plus整合ssm\src\main\java\mao\mybatis_plus_integration_ssm\entity\Student.java
 H:\程序\大三下期\Mybatis_Plus整合ssm\src\main\java\mao\mybatis_plus_integration_ssm\MybatisPlusSqlGenerator.java

@@ -45,8 +45,16 @@ public class StudentController
     @RequestMapping(value = "insert_handler", method = RequestMethod.POST)
     public String insert_handler(Student student)
     {
-        System.out.println(student);
-        return "";
+        //System.out.println(student);
+        boolean b = iStudentService.save(student);
+        if (b)
+        {
+            return "success";
+        }
+        else
+        {
+            return "error";
+        }
     }
 
     @RequestMapping("/test")

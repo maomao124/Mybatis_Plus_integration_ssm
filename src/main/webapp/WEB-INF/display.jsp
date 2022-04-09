@@ -64,6 +64,12 @@
             <td>
                     ${student.remarks}
             </td>
+            <td>
+                <a href="#?student_no=${student.studentNo}">更新</a>
+            </td>
+            <td>
+                <a href="#?student_no=${student.studentNo}">删除</a>
+            </td>
         </tr>
     </c:forEach>
 </table>

@@ -3,10 +3,16 @@
 <html>
 <head>
     <title>JSP - Hello World</title>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/link.css">
+    <style>
+        body {
+            background-color: #b4ffab;
+        }
+    </style>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
+<a href="${pageContext.request.contextPath}/select">查询全部</a>
+<a href="${pageContext.request.contextPath}/insert">插入</a>
 <br/>
 </body>
 </html>

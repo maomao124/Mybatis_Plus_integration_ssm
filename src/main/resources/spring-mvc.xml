@@ -33,4 +33,22 @@
     <context:component-scan base-package="mao.mybatis_plus_integration_ssm.controller">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
+
+    <!--配置简单异常处理器-->
+    <!--<bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">-->
+    <!--    &lt;!&ndash;设置默认错误视图的名称。如果未找到特定映射，则将返回此视图&ndash;&gt;-->
+    <!--    <property name="defaultErrorView" value="error"/>-->
+    <!--    &lt;!&ndash;设置异常类名称和错误视图名称之间的映射&ndash;&gt;-->
+    <!--    <property name="exceptionMappings">-->
+    <!--        <map>-->
+    <!--            <entry key="java.lang.ClassCastException" value="error1"/>-->
+    <!--            <entry key="" value=""/>-->
+    <!--        </map>-->
+    <!--    </property>-->
+    <!--</bean>-->
+
+
+    <!--自定义异常处理器-->
+    <!--实现HandlerExceptionResolver接口-->
+    <bean class="mao.mybatis_plus_integration_ssm.exception.ExceptionResolver"/>
 </beans>
