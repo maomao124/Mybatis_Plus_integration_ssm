@@ -15,6 +15,7 @@
     <title>插入</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/form.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/hotAirBalloon.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/animate.css">
 </head>
 <body>
 <div class="text_position">
